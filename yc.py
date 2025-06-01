@@ -423,12 +423,5 @@ async def main():
         print(f"Saved enriched JSON to {out}")
 
 
-# async def main():
-#     async with YCPeopleScraper() as scraper:
-#         name = "aadit palicha"
-#         usernames = await scraper.find_hn_usernames(name)
-#         print(f"Hacker News usernames for '{name}': {usernames}")
-
-
 if __name__ == '__main__':
     asyncio.run(main())
